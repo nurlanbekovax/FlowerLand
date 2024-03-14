@@ -12,14 +12,13 @@ const Home = React.forwardRef((props, ref) => {
                     FlowerLand
                 </h1>
                 <h1 className="primary-text1">
-                Veeeery good shop cuz it run by you girls
+                Flower is our a manifestation of love.
                 </h1>
                 <h1 className="primary-text2">
-                Later need to put some info ahhh nurshat force me to do this I want some food for this help
+                Welcome to our world where flowers speak the language of love!
                 </h1>
                 <p className="primary-down-text">
-               
-               Mirlan Mirlan Mirlan Mirlan
+                Buy flowers here and now
                 </p>
                 <button className="secondary-button">
                     Buy Now <FiArrowRight />

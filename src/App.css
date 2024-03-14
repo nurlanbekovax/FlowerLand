@@ -18,14 +18,14 @@ img {
 body {
   max-width: 100%;
   overflow-x: hidden;
-  background-color: #ffffff;
+  background-color: hsl(0, 0%, 100%);
 }
 nav {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #f3b6ff;
+  background-color: #ffffff;
   z-index: 1000;
   padding: 1rem 2%; /* Using relative units */
   display: flex;

@@ -50,4 +50,5 @@
   color: #555; /* Change color on hover/focus for cooler effect */
   transform: scale(1.1); /* Slightly increase size on hover/focus for emphasis */
   cursor: pointer; /* Ensure it's clear the item is clickable */
+  
 }

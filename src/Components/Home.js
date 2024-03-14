@@ -11,14 +11,13 @@ const Home = () => {
                     FlowerLand
                 </h1>
                 <h1 className="primary-text1">
-                Lorem ipsum dolor sit amet consectetur.
+                Flower is our a manifestation of love!
                 </h1>
                 <h1 className="primary-text2">
-                Lorem ipsum.
+                Welcome to our world where flowers speak the language of love!
                 </h1>
                 <p className="primary-down-text">
-                Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-                elit.
+                Buy flowers here and now
                 </p>
                 <button className="secondary-button">
                     Buy Now <FiArrowRight />{" "}

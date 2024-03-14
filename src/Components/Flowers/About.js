@@ -2,11 +2,12 @@ import React from 'react';
 import { BsFillPlayCircleFill } from 'react-icons/bs';
 import "./About.css";
 
+
 const About = React.forwardRef((props, ref) => {
   return (
     <div className="about-section-container" ref={ref}>
       <div className="about-section-text-container">
-        <p className="primary-subheading">Flowers</p>
+        <p className="primary-subheading">Choices for you</p>
 
         <div className="box"> 
           <div>
@@ -15,7 +16,7 @@ const About = React.forwardRef((props, ref) => {
             <div className="box_description">$60 - 80$</div>
           </div>
           <div>
-            <img src="https://cdn.shopify.com/s/files/1/0507/3754/5401/t/1/assets/V5449D_LOL_preset_proflowers-mx-tile-wide-sv-new.jpeg?v=1637201054&width=768" alt="Light of My Life Bouquet" /> 
+            <img src="https://cdn.shopify.com/s/files/1/0507/3754/5401/files/R5520D_LOL_preset_proflowers-mx-tile-wide-sv-new.jpg?v=1696963744&width=768" alt="Light of My Life Bouquet" /> 
             <div className="box_title">Light of My Life Bouquet</div> 
             <div className="box_description">$55 - $85</div>
           </div> 
@@ -53,13 +54,15 @@ const About = React.forwardRef((props, ref) => {
             <div className="box_description">$53 - $83</div>
           </div> 
         </div> 
-
-        <div className="green">
+<br/>
+<br/>
+        <div className="green1">
           <h1>with sympathy</h1>
           <h4>Send comfort with a thoughtful arrangement.</h4>
-          <button>SHOP SYMPATHY</button>
+          <button className='buttongreen1'>SHOP SYMPATHY</button>
         </div>
-
+<br/>
+<br/>
         <section className="sec3">
           <div className="information_container"> 
             <div className="info1"> 
@@ -78,11 +81,13 @@ const About = React.forwardRef((props, ref) => {
             </div> 
           </div> 
         </section>
+        <br/>
+        <br/>
 
-        <div className="green">
+        <div className="green2">
           <h1>Bloom & Wild x Liberty</h1>
           <h4>We designed these bloom lorem ipsum dolor sit amet consectetur adipisicing elit...</h4>
-          <button>Find out more</button>
+          <button className="buttongreen2">Find out more</button>
         </div>
       </div>
     </div>

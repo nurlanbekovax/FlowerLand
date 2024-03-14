@@ -56,7 +56,7 @@ const Navbar = ({ refs }) => {
       ref: refs.aboutRef,
     },
     {
-      text: "Testimonials",
+      text: "Team",
       icon: <CommentRoundedIcon />,
       ref: refs.testimonialsRef,
     },

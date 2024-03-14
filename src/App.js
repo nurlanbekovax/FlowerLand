@@ -18,11 +18,11 @@ function App() {
 
   return (
     <>
-      <Navbar refs={{homeRef, aboutRef, workRef, testimonialsRef, contactRef}} />
+      <Navbar refs={{homeRef, aboutRef, testimonialsRef, workRef, contactRef}} />
       <Home ref={homeRef} />
       <About ref={aboutRef} />
-      <Work ref={workRef} />
       <Testimonial ref={testimonialsRef} />
+      <Work ref={workRef} />
       <Contact ref={contactRef} />
       <Footer />
     </>
