@@ -33,7 +33,7 @@ const Testimonial = React.forwardRef((props, ref) => {
         </div>
         <div className='testimonials-comment-container'>
         <p>
-            Good good very good lolololo  VERRY GOOD SHOP BUT NEED BACKEND
+            ASAP Team
         </p>
         </div>
     

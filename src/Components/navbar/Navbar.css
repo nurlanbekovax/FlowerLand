@@ -39,15 +39,16 @@
 
 .navbar-link {
   margin: 0 10px;
-  color: #000; /* Set text color to black */
-  font-size: 18px; /* Make the font size larger */
-  font-weight: bold; /* Make the font weight bold */
-  text-transform: uppercase; /* OPTIONAL: Makes text uppercase for a more distinctive look */
-  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition for color and transform */
+  color: #d51592; 
+  font-size: 18px; 
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .navbar-link:hover, .navbar-link:focus {
-  color: #555; /* Change color on hover/focus for cooler effect */
+  color: #eb0c0c; /* Change color on hover/focus for cooler effect */
   transform: scale(1.1); /* Slightly increase size on hover/focus for emphasis */
   cursor: pointer; /* Ensure it's clear the item is clickable */
+  
 }

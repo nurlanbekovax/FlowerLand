@@ -1,24 +1,24 @@
 import React from 'react';
-import PickMeals from "../../Assets/pick-meals-image.png";
-import ChooseMeals from "../../Assets/choose-image.png";
-import DeliveryMeals from "../../Assets/delivery-image.png";
+// import PickMeals from "../../Assets/pick-meals-image.png";
+// import ChooseMeals from "../../Assets/choose-image.png";
+// import DeliveryMeals from "../../Assets/delivery-image.png";
 import "./Work.css";
 
 // Adding React.forwardRef to the component function
 const Work = React.forwardRef((props, ref) => {
   const workInfoData = [
     {
-      image: PickMeals, // Associating image with the data
+      // image: PickMeals, // Associating image with the data
       title: "Pick Meals",
       text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
     },
     {
-      image: ChooseMeals, // Associating image with the data
+      // image: ChooseMeals, // Associating image with the data
       title: "Choose How Often",
       text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
     },
     {
-      image: DeliveryMeals, // Associating image with the data
+      // image: DeliveryMeals, // Associating image with the data
       title: "Fast Deliveries",
       text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
     },

@@ -25,7 +25,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #f3b6ff;
+  background-color: #ffffff;
   z-index: 1000;
   padding: 1rem 2%; /* Using relative units */
   display: flex;
